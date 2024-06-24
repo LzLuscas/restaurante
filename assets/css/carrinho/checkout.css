@@ -1,0 +1,133 @@
+.fundo_bloco_checkout{
+    background-color: #fff;
+    border-radius: 17px;
+}
+
+.container_checkout{
+    max-width: 500px;
+    max-height: 217px;
+    margin: 15px auto 10px;
+    background-color: #fff; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 20px 13px rgba(0, 33, 92, 0.1);
+    }
+
+.lista_checkout li{
+    list-style: none;
+    
+   }
+
+.lista_checkout_bolinha{
+    align-items: center;
+    display: flex;
+    padding: 2px 15px;
+   }
+
+.lista_checkout_fechar{
+    margin: -5px 5px 0px auto;
+    list-style: none;
+
+   }
+
+.bloco_geral_checkout{
+    display: flex;
+    padding: 1px 0px 14px 0px;   
+}
+
+.bloco_geral_checkout:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+    transition: 0.6s ease-in-out; 
+}
+
+
+.container_checkout_produtos{
+    max-width: 500px;
+    max-height: 217px;
+    background-color: #fff; 
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px auto 10px;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 20px 13px rgba(0, 33, 92, 0.1);
+
+    }
+
+.container_checkout_produtos img{
+    max-width: 100px;
+    max-height: 100px;
+    float: left;
+    margin-right: 10px;
+    }
+
+.container_checkout_valor{
+    max-width: 500px;
+    max-height: 210px;
+    background-color: #fff; 
+    border-radius: 4px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px auto 60px;
+    box-shadow: 0px 4px 20px 13px rgba(0, 33, 92, 0.1);
+
+    }
+
+.bloco_acao{
+    max-width: 500px;
+    max-height: 160px;
+    margin: 15px auto 10px;
+    background-color: transparent; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    }
+
+
+.titulo_checkout{
+    max-width: 500px;
+    max-height: 160px;
+    margin: 31px auto 15px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.bloco_geral_checkout_valor{
+    display: flex;
+    padding: 1px 0px 14px 0px;   
+}
+
+.valores{
+    margin: 0px 0px 0px auto;
+}
+
+.acao_fechar{
+    color: #862F35;
+    width: 14px;
+    height: 14px;
+}
+
+.acao_fechar:hover{
+    color: black;
+    transition: 0.6s ease-in-out; 
+
+}
+
+.bloco_confirmar{
+    background-color: #3FAC00;
+    color: #fff;
+}
+
+.bloco_confirmar:hover{
+    background-color: #c3eaad;
+    transition: 0.6s ease-in-out; 
+}
+
+.bloco_adicionar{
+    background-color: rgb(62, 62, 62);
+    color: #fff;
+}
+
+.bloco_adicionar:hover{
+    background-color: #b8b8b8;
+    transition: 0.6s ease-in-out; 
+}

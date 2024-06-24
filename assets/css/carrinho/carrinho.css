@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*comentado pois interfiriu no layout das telas do /cliente e do /adm */
+/*
+.container{
+    margin-top: 150px;
+}
+*/
+
+
+.titulo-car-prin{
+    color: var(--color-primary-hover-1);
+      font-size: 30px;
+}
+
+
+.cart-item {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+ 
+  
+      
+    }
+
+    .nomeprodutocar{
+        font-size: 20px;
+       
+        color: #862F35;
+    }
+
+.cart-item:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+    transition: 0.6s ease-in-out;
+    }
+
+.cart-item-info {
+
+    display: flex;
+    justify-content: space-around ;
+    border-radius: 10px;
+    }
+
+.quantity {
+    width: 50px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.quantity:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+}
+
+.product-image {
+    width: 75x;
+    height: 65px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.2);
+    
+    }
+
+
+
+#btfavorito{
+    background-color:var(--color-primary-hover-1);;
+    color: #fff ;
+    border-radius: 5px;
+    padding: 4px;
+    margin-left: 0;
+ 
+   
+}
+
+#btfavorito:hover{
+    background-color: var(--color-primary-hover-1);
+}
+
+#btntrash{
+    background-color: grey;
+    color: #dee2e6;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#btnfav{
+    margin: 0;
+    padding: 0;
+}
+
+.decrease-quantity{
+    margin-left: 10px;
+}
+
+
+
+
+.total-car{
+    background-color: #fff;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.2);
+    border: solid;
+    border-color:rgb(221, 221, 221) ;
+    margin-top: 70px;
+    margin-left: 40px   ;
+    margin-bottom: 80px;
+    Width: 504px;
+
+
+}  
+
+.total-car:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+    transition: 0.6s ease-in-out;
+
+}
+
+ #cart {     
+      border-radius: .25rem;
+      padding: 10px;
+}
+
+
+#titulocarrinho{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  padding-top: 20px;
+  color:  #862F35;
+
+}
+
+#total{
+    text-align: center; 
+    font-weight: 600;
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+#titulocupom{
+    text-align: center; 
+    color:  #862F35;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+
+#apply-coupon{
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.08);
+    background-color: #150c91;
+    color: #fff;
+    margin-left: 17%;
+    margin-right: 10px;
+    
+}
+
+#apply-coupon:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+    transition: 0.6s ease-in-out;
+
+}
+
+.total-section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 90%;
+    height: 200px;
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.2);
+    border: solid;
+    border-color:rgb(221, 221, 221) ;
+       
+}
+
+
+
+#coupon{
+    display: flex;
+    align-items: center; /* alinha verticalmente ao centro */
+    border-radius: 10px;
+    box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.2);
+    align-items: center;
+    
+}
+
+#coupon:hover{
+    box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+    transition: 0.6s ease-in-out;
+
+}
+
+    .cart-item-actions {
+        display: flex;
+        align-items: center; /* alinha verticalmente ao centro */
+    }
+    
+
+    .price-car{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    #pay-now{
+        box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.08);
+        background-color: #3fac00;
+        color: #fff;
+        margin-right: 10%;
+        margin-left: 5px;
+    }
+
+    #pay-now:hover{
+        box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+        transition: 0.6s ease-in-out;
+    
+    }
+
+    #limpar-carrinho{
+        box-shadow: 0px -1px 20px 13px rgba(0, 33, 92, 0.08);
+        background-color: #ff0000;
+        color: #fff;
+        margin-right: 10%;
+        margin-bottom: 30px;
+        margin-left: 34%;
+    }
+
+    #limpar-carrinho:hover{
+        box-shadow: 1px 1px 10px 1px var(--color-primary-hover-1);
+        transition: 0.6s ease-in-out;
+    
+    }
+
+    @media (max-width: 768px) {
+        .cart-item {
+            flex-direction: column;
+            align-items: center;
+            width: 350px;
+            height: 155px;
+        }
+    
+        .cart-item-info {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+    
+        .cart-item-actions {
+            align-items: center;
+        }
+    
+        .cart-item-actions .btn,
+        .cart-item-actions .price-car {
+            width: 100%;
+            
+        }
+    
+        .total-car {
+            padding: 10px;
+            width: 350px;
+            height: 555px;
+            margin-left: 18px;
+        }
+    
+        .coupon-section button {
+            padding: 10px;
+            align-items: center
+            ;
+        }
+
+        #apply-coupon{
+            margin-left: 30%;
+        }
+
+        #pay-now{
+            margin-left: 32%;
+        }
+
+        #limpar-carrinho{
+            margin-left: 28%;
+
+
+        }
+    }
+
+
+   
+    /* Media query para dispositivos com largura máxima de 160px */
+@media (max-width: 160px) {
+    .cart-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-item-info {
+        margin-bottom: 10px;
+    }
+
+    .cart-item-actions {
+        align-items: center;
+    }
+
+    .cart-item-actions .btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cart-item-actions .price-car {
+        width: 100%;
+        text-align: center;
+        order: 1; /* Move o preço para o final */
+        margin-top: 10px;
+    }
+}
+    

@@ -1,0 +1,26 @@
+/* style do botão logado*/
+.botaologado{
+    background-color: #96383e;
+    color: #fff;
+    padding: 9px 15px 13px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+/* style do menu suspenso do usuario*/
+.dropdown-menu {
+    list-style-type: none !important;
+    background-color: #96383e ;
+    color: #fff ;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding-left: 0 !important;
+}
+
+/* importante para alterar o bootstrap padrão e posicionar o menu suspenso*/
+.dropdown-menu[data-bs-popper] {
+    top: 138% !important;
+    left: -100% !important;
+}

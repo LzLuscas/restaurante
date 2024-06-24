@@ -1,0 +1,338 @@
+.teste img {
+    height: 32px;
+    display: flex;
+}
+
+.teste {
+    display: flex;
+}
+
+.teste p {
+    margin-top: -10px;
+    padding-left: 20px;
+}
+
+.alert {
+    background: white;
+}
+
+.fundo_bloco {
+    background: #862F35;
+    border-radius: 16px;
+}
+
+.btn-editar {
+    background: #3c3c3b;
+    float: right;
+}
+
+.btn-editar:hover {
+    transition: 1s all;
+    background-color: #E6E6FA;
+}
+
+.btn-editar:hover .asdas {
+    color: #3c3c3b;
+}
+
+.btn-seguro {
+    background: #3c3c3b;
+    float: left;
+}
+
+.text-right a,
+.col a {
+    color: #fff;
+}
+
+.text-right a:hover,
+.col a:hover {
+    color: #fff;
+}
+
+.fist {
+    text-align: center;
+}
+
+
+/* alterar email, senha e telefone e outros */
+.nome_menor{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 9px;
+
+}
+.nome_maior{
+    color: #fff;
+    margin-top: -4px;
+    margin-left: 10px;
+
+}
+
+.bb{
+    background-color: #292C35;
+    margin-top: 8px;
+    
+}
+
+.bbb{
+    background-color: transparent;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+    
+}
+
+.botao_admin{
+    background-color: #292C35;
+    color: #fff;
+    
+}
+
+.botao_admin:hover{
+    background-color: #491d20;
+    transition: 0.4s ease-in-out;
+    
+}
+
+.botao_admin_letra{
+    background-color: #292C35;
+    color: #fff;
+    
+}
+
+.botao_admin_lateral {
+    position: fixed;
+    background-color: #862F35;
+    color: #fff;
+
+}
+
+
+.botao_admin_lateral:hover {
+    background-color: #292C35; 
+    color: #fff;
+    transition: 0.4s ease-in-out;
+
+}
+
+
+.bb2{
+    background-color: transparent;
+    
+}
+
+.gg{
+margin-left: 38%;
+}
+
+
+.lista_admin_fale_conosco{
+    max-height: 500px; /* Defina a altura máxima da lista */
+    overflow-y: auto; /* Adicione uma barra de rolagem vertical */
+}
+
+.lista_compras{
+    max-height: 500px; /* Defina a altura máxima da lista */
+    overflow-y: auto; /* Adicione uma barra de rolagem vertical */
+    text-align: center;
+}
+
+
+.lista_admin_fale_conosco_botao{
+    background-color: #292C35;
+    color: #fff;
+    font-size: 14px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    cursor: pointer
+}
+
+.lista_admin_fale_conosco_botao:hover{
+    background-color: #862F35;
+}
+
+.lista_admin_fale_conosco_voltar{
+    background-color: #292C35;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+
+}
+
+.lista_admin_fale_conosco_voltar:hover{
+    background-color: #491d20;
+}
+
+.quebra_cliente th{
+    word-wrap: break-word;
+}
+
+.img_adm_cardapio{
+    border-radius: 5px;
+    width: 65px;
+    height: 55px;
+    margin-right: 10px;
+}
+
+.adm_botao_cardapio{
+    background-color: #292C35;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.adm_botao_cardapio:hover{
+    background-color: #491d20;
+}
+
+.botao_geral_cardapio{
+    background-color: #292C35;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.botao_geral_cardapio:hover{
+background-color: #491d20;
+color: #fff;
+}
+
+
+ /* FICHEIRO DA IMAGEM DO EDITAR CARDAPIO */
+
+input[type="file"] {
+    display: none;
+}
+
+.label_enviar{
+    background-color: #292C35;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.label_enviar:hover{
+    background-color: #491d20;
+    color: #fff;
+}
+
+
+/* Cor do botão */
+.form-check-input:checked {
+    background-color: #862F35;
+}
+
+.select_cliente {
+    width: 150px;
+  }
+
+
+  .bloco_posicao{
+    justify-content: center;
+    display: flex;
+
+  }
+
+  .botao_alterar_perfil{
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+
+ }
+
+ .botao_alterar_perfil:hover{
+    background-color: #491d20;
+    color: #fff;
+
+ }
+
+.texto_ajustado{
+    text-align: justify;
+}
+
+/* Estilo para centralizar a mensagem */
+.mensagem {
+    background-color: #491d20;
+    color: #fff;
+    position: fixed;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-lg_e {
+    max-width: 90%; /* Defina a largura máxima desejada */
+  }
+
+/*menu lateral*/
+
+#profile ul.nav .nav-item a.nav-link.active,
+#profile ul.nav .nav-item a.nav-link:hover {
+    background-color: #862F35;
+    transition: 0.2s ease-in-out;
+}
+
+#profile ul.nav .nav-item a.nav-link {
+    background-color: #292c35;
+    color: white;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+section {
+    display: block;
+}
+
+::selection {
+    color: white;
+    text-shadow: none;
+    background: #222222;
+}
+
+ul i {
+    float: right;
+
+    height: 48px;
+}
+
+.img_port{
+    width: 80px;
+    height: 480px;
+}
+
+
+.t_cor{
+    color: var(--color-neutral-text-1);
+}
+
+.tabela {
+    background-color: white;
+}

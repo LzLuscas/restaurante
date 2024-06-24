@@ -1,0 +1,136 @@
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+.titulo {
+    font-size: 24px;
+    margin: 20px 0;
+    margin-bottom: 50px;
+
+}
+.container-progresso {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.barra-progresso {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background-color: #e0e0e0;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+
+.barra-progresso::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6%; 
+    height: 100%;
+    background-color: #00b2b2;
+    z-index: 2;
+}
+
+.rotulo {
+    margin-top: 14px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.etapa {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    border: 4px solid #fff; 
+    margin-top: -14px; 
+}
+
+.circulo.checked {
+    background-color: #00b2b2;
+}
+
+
+.fundo_bloco_status{
+    background-color: #fff;
+    border-radius: 17px;
+}
+
+.bloco_geral_status{
+    display: flex;
+    padding: 1px 0px 14px 0px;   
+}
+
+.container_status{
+    max-width: 500px;
+    max-height: 217px;
+    margin: 15px auto 10px;
+    background-color: #ccc; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+
+    }
+
+.lista_status li{
+    list-style: none;
+    
+   }
+
+.lista_checkout_bolinha{
+    align-items: center;
+    display: flex;
+    padding: 2px 15px;
+   }
+
+.lista_checkout_fechar{
+    margin: -5px 5px 0px auto;
+    list-style: none;
+
+   }
+
+.bloco_geral_status{
+    display: flex;
+    padding: 1px 0px 14px 0px;   
+}
+
+
+.bloco_acao{
+    max-width: 500px;
+    max-height: 160px;
+    margin: 15px auto 10px;
+    background-color: transparent; 
+    padding: 10px 10px 10px 10px;
+    border-radius: 4px;
+    }
+
+
+.titulo_status{
+    max-width: 500px;
+    max-height: 160px;
+    margin: 31px auto 15px;
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.valores{
+    margin: 0px 0px 0px auto;
+}

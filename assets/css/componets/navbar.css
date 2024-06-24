@@ -1,0 +1,130 @@
+.navbar{
+    background-color: #862F35 !important;
+    margin-top: 20px;
+    margin-left: 28px;
+    margin-right: 28px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.774); /**Tras sombra ao navbar**/
+    padding: 18px;
+    transition: all 0.4s ease; /* transição suave */
+}
+
+/**bloco para ajudar a centralizar o navbar**/
+.bloco_central{
+    height: 3px;
+    padding: 20px 110px;
+    background-color: transparent;
+}
+
+/**DECORAÇÃO BOTÃO LOGIN**/
+
+.botaologin{
+
+    background-color: #96383e !important;
+    color: #fff !important;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+
+}
+
+.botaologin:hover{
+    background-color: #491d20 !important;
+}
+
+/**CORES E TAMANHO OS BOTOTES DO MENU**/
+
+.nav-link{
+    color: #fff !important;
+    font-weight: 500;
+    position: relative;
+}
+
+/**CORES COM O MOUSE EM CIMA**/
+
+.nav-link:hover, .nav-link.active{
+    color: #ffffff !important;
+}
+
+
+/** Tela bem pequena **/
+.navbar-toggler{
+    margin-left: -60px;
+    margin-right: -20px;
+}   
+
+/**DECORAÇÃO DO UNDERLINE DOS LINKS DO MENU**/
+
+@media (min-width: 985px) {
+    
+
+
+    .nav-link::before{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 2px;
+        background-color: #ffffff;
+        visibility: hidden;
+        transition: 0.1s ease-in-out;
+    }
+
+    .nav-link:hover:before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.logomenu{
+    margin-left: 15px;
+    position: absolute; /* Torna o logo posicionado absolutamente dentro do navbar */
+    top: 0%; /* Alinha o topo do logo ao centro verticalmente */
+
+}
+/* media screen para modo celular e tablet com menu hamburguer*/
+@media (min-width: 300px) and (max-width: 991px) {
+
+    .navbar-toggler-icon{
+
+        margin-bottom: 0px;
+    }
+
+
+    .faleconosco{
+        margin-bottom: 0px;
+
+
+    }
+    
+    .label{
+        margin-bottom: 32px;
+        margin-left: 10px;
+    }
+
+    .btn-container{
+        margin-left: 1px;
+        margin-bottom: 1px;
+
+    }
+
+   
+}   
+
+.fa, .fa:hover{
+    color: #96383e;
+    background-color: #fff !important;
+    border: #96383e !important;
+    margin-right: 20px;
+    
+}
+.btn-primary{
+    padding: 7px 10px;
+}
+.fas{
+    width: 30px !important;
+}

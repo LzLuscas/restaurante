@@ -1,0 +1,92 @@
+
+.about-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+.footer_img{
+    width: 175px;
+}
+.footer{
+    padding-top: 40px;
+
+}
+.social-midia-footer a {
+    margin-left: 10px;
+    color: white;
+}
+.social-midia-footer a:hover {
+    color: #862F35;
+}
+.info-footer a{
+ text-decoration: none;
+}
+.info-footer li{
+ list-style: none;
+}
+.info-footer li a {
+    color: white;
+}
+.info-footer ul li a {
+    transition: all 0.3s ease;
+}
+
+.info-footer li a:hover{
+    color: #862F35;
+    padding-left: 8px;
+}
+.info-footer ul li {
+    margin-left: 38% !important;
+    text-align: justify;
+}
+@media (max-width: 767.98px) { 
+    .info-footer ul li {
+        margin-left: 0 !important;
+    }
+    .info-footer ul h4 {
+        text-align: left;
+    }
+    .media{
+        margin-left: -30px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1025px) { 
+    .info-footer ul h4 {
+        margin-left: 35%;
+    }
+ }
+ @media (min-width: 1025px) and (max-width: 1113px) { 
+    .info-footer ul h4 {
+        margin-left: 30%;
+    }
+ }
+ @media (min-width: 1113px) and (max-width: 1399px) { 
+    .info-footer ul h4 {
+        margin-left: 18%;
+    }
+ }
+ @media (min-width: 1400px) and (max-width: 1629px) { 
+    .info-footer ul h4 {
+        margin-left: 10%;
+    }
+ }
+
+/* Definição das cores do icone */
+
+.material-icons.md-17 { font-size: 15px; }
+
+
+/*muda a cor da ancora*/
+
+.endereco_cor{
+    color: white;
+}
+
+
+/*muda a cor da ancora quando o mouse passa por cima*/
+.endereco_cor:hover{
+    color: #862F35;
+    transition: all 0.3s ease;
+
+}
