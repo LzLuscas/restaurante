@@ -4,7 +4,7 @@
 // $chave = 'chave_de_criptografia';
 
 // URL original
-$url = 'http://localhost/restaurante';
+$url = 'http://localhost/restaurante-bonsucesso/restaurante';
 
 // Criptografar a URL
 // $urlCriptografada = base64_encode(openssl_encrypt($url, 'AES-256-CBC', $chave, 0, substr($chave, 0, 16)));
@@ -16,7 +16,7 @@ $url = 'http://localhost/restaurante';
 
 $servidor = 'localhost';
 $usuario = 'root';
-$senha = 'baraujobaa';
+$senha = '';
 $banco = 'restaurante';
 
 $conexao = new mysqli($servidor, $usuario, $senha, $banco);

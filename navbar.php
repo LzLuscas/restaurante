@@ -165,7 +165,7 @@ $isLoggedIn = isset($_SESSION['id']);
                                 icon;
             } else {
                 // Usuário não está logado
-                echo '<a href="http://localhost/restaurante/login/login.php" class="botaologin justify-content-end mx-4">Login</a>';
+                echo '<a href="' . $url . '/login/login.php" class="botaologin justify-content-end mx-4">Login</a>';
             }
             ?>
         </div>

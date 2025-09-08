@@ -15,7 +15,7 @@ use PHPMailer\PHPMailer\Exception;
 date_default_timezone_set('America/Sao_Paulo');
 // Incluir conexão com o BD
 include_once "../conexao.php";
-require_once('../assets/lib/vendor/autoload.php');
+require_once('../vendor/autoload.php');
 // Imprimir os erros com debug
 
 ?>
